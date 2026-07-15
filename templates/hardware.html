@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Hardware</h2>
+
+<div class="card">
+    <h3>Equipamento</h3>
+    {% include "partials/detail_block.html" with data=equipamento %}
+</div>
+
+<div class="card">
+    <h3>CPU</h3>
+    {% include "partials/detail_block.html" with data=cpu %}
+</div>
+
+<div class="card">
+    <h3>Memória</h3>
+    {% include "partials/detail_block.html" with data=memoria %}
+</div>
+
+<div class="card">
+    <h3>BIOS</h3>
+    {% include "partials/detail_block.html" with data=bios %}
+</div>
+
+<div class="card">
+    <h3>Discos</h3>
+    {% include "partials/detail_block.html" with data=discos %}
+</div>
+
+<div class="card">
+    <h3>Placa-mãe</h3>
+    {% include "partials/detail_block.html" with data=placa_mae %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,2239 @@
+{
+    "equipamento": {
+        "hostname": "LAPTOP-GL4996I4",
+        "fabricante": "",
+        "modelo": "",
+        "serial": "",
+        "uuid": "810b7b6f-7190-11f1-b315-6432a84b3c18"
+    },
+    "cpu": {
+        "fabricante": "GenuineIntel",
+        "modelo": "Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz",
+        "frequencia_mhz": 1700.0,
+        "nucleos": 4,
+        "threads": 8,
+        "uso_percentual": 19.4
+    },
+    "memoria": {
+        "ram_total_gb": 7.91,
+        "ram_usada_gb": 7.11,
+        "ram_livre_gb": 0.8,
+        "uso_percentual": 89.9
+    },
+    "bios": {
+        "fabricante": "",
+        "versao": "",
+        "data": ""
+    },
+    "discos": [
+        {
+            "dispositivo": "C:\\",
+            "ponto_montagem": "C:\\",
+            "tipo": "NTFS",
+            "capacidade_gb": 588.47,
+            "utilizado_gb": 361.42,
+            "livre_gb": 227.05,
+            "uso_percentual": 61.4
+        },
+        {
+            "dispositivo": "D:\\",
+            "ponto_montagem": "D:\\",
+            "tipo": "NTFS",
+            "capacidade_gb": 341.8,
+            "utilizado_gb": 0.19,
+            "livre_gb": 341.6,
+            "uso_percentual": 0.1
+        }
+    ],
+    "placa_mae": {
+        "fabricante": "",
+        "produto": "",
+        "serial": ""
+    },
+    "temperatura": {
+        "temperatura": "Não suportado neste sistema"
+    },
+    "interfaces": [
+        {
+            "nome": "Conexão de Rede Bluetooth 2",
+            "status": "DOWN",
+            "velocidade_mbps": 3,
+            "mtu": 1500
+        },
+        {
+            "nome": "Loopback Pseudo-Interface 1",
+            "status": "UP",
+            "velocidade_mbps": 1073,
+            "mtu": 1500
+        },
+        {
+            "nome": "Wi-Fi 2",
+            "status": "UP",
+            "velocidade_mbps": 150,
+            "mtu": 1500
+        },
+        {
+            "nome": "Conexão Local* 3",
+            "status": "DOWN",
+            "velocidade_mbps": 0,
+            "mtu": 1500
+        },
+        {
+            "nome": "Conexão Local* 4",
+            "status": "DOWN",
+            "velocidade_mbps": 0,
+            "mtu": 1500
+        }
+    ],
+    "ips": [
+        {
+            "interface": "Conexão Local* 3",
+            "ipv4": [
+                "169.254.96.59"
+            ],
+            "ipv6": [
+                "fe80::1758:5fc6:e005:2c64"
+            ]
+        },
+        {
+            "interface": "Conexão Local* 4",
+            "ipv4": [
+                "169.254.38.48"
+            ],
+            "ipv6": [
+                "fe80::6082:9bd1:dd7a:92a3"
+            ]
+        },
+        {
+            "interface": "Wi-Fi 2",
+            "ipv4": [
+                "192.168.0.247"
+            ],
+            "ipv6": [
+                "2804:388:8042:e47:f62e:42d4:8602:e36a",
+                "2804:388:8042:e47:78ed:aece:4c80:b088",
+                "fe80::3b2b:3ca5:ca9:d24a"
+            ]
+        },
+        {
+            "interface": "Conexão de Rede Bluetooth 2",
+            "ipv4": [
+                "169.254.68.226"
+            ],
+            "ipv6": [
+                "fe80::fb4a:cfe4:f1f0:aadb"
+            ]
+        },
+        {
+            "interface": "Loopback Pseudo-Interface 1",
+            "ipv4": [
+                "127.0.0.1"
+            ],
+            "ipv6": [
+                "::1"
+            ]
+        }
+    ],
+    "gateway": {
+        "gateway": "192.168.0.1"
+    },
+    "dns": {
+        "dns": [
+            "192.168.0.1"
+        ]
+    },
+    "portas": [
+        {
+            "porta": 135,
+            "pid": 1380,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 135,
+            "pid": 1380,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 139,
+            "pid": 4,
+            "processo": "System"
+        },
+        {
+            "porta": 445,
+            "pid": 4,
+            "processo": "System"
+        },
+        {
+            "porta": 445,
+            "pid": 4,
+            "processo": "System"
+        },
+        {
+            "porta": 5040,
+            "pid": 6804,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 5357,
+            "pid": 4,
+            "processo": "System"
+        },
+        {
+            "porta": 5357,
+            "pid": 4,
+            "processo": "System"
+        },
+        {
+            "porta": 7070,
+            "pid": 4272,
+            "processo": "AnyDesk.exe"
+        },
+        {
+            "porta": 7070,
+            "pid": 4272,
+            "processo": "AnyDesk.exe"
+        },
+        {
+            "porta": 7680,
+            "pid": 7320,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 7680,
+            "pid": 7320,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 49664,
+            "pid": 940,
+            "processo": "lsass.exe"
+        },
+        {
+            "porta": 49664,
+            "pid": 940,
+            "processo": "lsass.exe"
+        },
+        {
+            "porta": 49665,
+            "pid": 528,
+            "processo": "wininit.exe"
+        },
+        {
+            "porta": 49665,
+            "pid": 528,
+            "processo": "wininit.exe"
+        },
+        {
+            "porta": 49666,
+            "pid": 2236,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 49666,
+            "pid": 2236,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 49667,
+            "pid": 2320,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 49667,
+            "pid": 2320,
+            "processo": "svchost.exe"
+        },
+        {
+            "porta": 49668,
+            "pid": 3676,
+            "processo": "spoolsv.exe"
+        },
+        {
+            "porta": 49668,
+            "pid": 3676,
+            "processo": "spoolsv.exe"
+        },
+        {
+            "porta": 49671,
+            "pid": 796,
+            "processo": "services.exe"
+        },
+        {
+            "porta": 49671,
+            "pid": 796,
+            "processo": "services.exe"
+        }
+    ],
+    "sistema_operacional": {
+        "hostname": "LAPTOP-GL4996I4",
+        "sistema": "Windows",
+        "versao": "10.0.22631",
+        "release": "11",
+        "build": "Windows-11-10.0.22631-SP0",
+        "arquitetura": "AMD64",
+        "processador": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+        "usuario_logado": "cezar",
+        "boot_time": "26/06/2026 11:57:17",
+        "uptime": "0d 3h 57m 38s"
+    },
+    "processos": [
+        {
+            "pid": 10480,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 16.6,
+            "memoria_percent": 6.49,
+            "status": "running",
+            "criado_em": "26/06/2026 15:21:11"
+        },
+        {
+            "pid": 13300,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 31.0,
+            "memoria_percent": 5.6,
+            "status": "running",
+            "criado_em": "26/06/2026 15:41:22"
+        },
+        {
+            "pid": 6948,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 2.2,
+            "memoria_percent": 4.87,
+            "status": "running",
+            "criado_em": "26/06/2026 15:21:40"
+        },
+        {
+            "pid": 5840,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.3,
+            "memoria_percent": 4.43,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:36"
+        },
+        {
+            "pid": 4440,
+            "nome": "MsMpEng.exe",
+            "usuario": null,
+            "cpu_percent": 42.9,
+            "memoria_percent": 4.36,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:48"
+        },
+        {
+            "pid": 8548,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 2.6,
+            "memoria_percent": 3.47,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:24"
+        },
+        {
+            "pid": 8076,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 3.27,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:32"
+        },
+        {
+            "pid": 6664,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 2.87,
+            "status": "running",
+            "criado_em": "26/06/2026 15:22:06"
+        },
+        {
+            "pid": 2196,
+            "nome": "explorer.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.6,
+            "memoria_percent": 2.81,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:23"
+        },
+        {
+            "pid": 11824,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 6.1,
+            "memoria_percent": 2.75,
+            "status": "running",
+            "criado_em": "26/06/2026 15:44:10"
+        },
+        {
+            "pid": 11128,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.6,
+            "memoria_percent": 2.65,
+            "status": "running",
+            "criado_em": "26/06/2026 15:22:06"
+        },
+        {
+            "pid": 2452,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 2.55,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:41"
+        },
+        {
+            "pid": 5720,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.5,
+            "memoria_percent": 2.41,
+            "status": "running",
+            "criado_em": "26/06/2026 15:22:05"
+        },
+        {
+            "pid": 12892,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 2.39,
+            "status": "running",
+            "criado_em": "26/06/2026 15:54:55"
+        },
+        {
+            "pid": 8668,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 6.9,
+            "memoria_percent": 2.23,
+            "status": "running",
+            "criado_em": "26/06/2026 15:21:36"
+        },
+        {
+            "pid": 7548,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.5,
+            "memoria_percent": 2.15,
+            "status": "running",
+            "criado_em": "26/06/2026 15:19:26"
+        },
+        {
+            "pid": 7820,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.5,
+            "memoria_percent": 1.73,
+            "status": "running",
+            "criado_em": "26/06/2026 15:20:57"
+        },
+        {
+            "pid": 4108,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.67,
+            "status": "running",
+            "criado_em": "26/06/2026 15:22:09"
+        },
+        {
+            "pid": 12356,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 1.67,
+            "status": "running",
+            "criado_em": "26/06/2026 15:49:03"
+        },
+        {
+            "pid": 10628,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.66,
+            "status": "running",
+            "criado_em": "26/06/2026 15:54:34"
+        },
+        {
+            "pid": 2356,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 3.5,
+            "memoria_percent": 1.62,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:16"
+        },
+        {
+            "pid": 5496,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.55,
+            "status": "running",
+            "criado_em": "26/06/2026 15:12:20"
+        },
+        {
+            "pid": 8908,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 4.3,
+            "memoria_percent": 1.51,
+            "status": "running",
+            "criado_em": "26/06/2026 15:21:36"
+        },
+        {
+            "pid": 10120,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.42,
+            "status": "running",
+            "criado_em": "26/06/2026 15:21:40"
+        },
+        {
+            "pid": 12120,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.25,
+            "status": "running",
+            "criado_em": "26/06/2026 15:23:07"
+        },
+        {
+            "pid": 6104,
+            "nome": "dwm.exe",
+            "usuario": null,
+            "cpu_percent": 4.3,
+            "memoria_percent": 1.16,
+            "status": "running",
+            "criado_em": "26/06/2026 13:32:45"
+        },
+        {
+            "pid": 2920,
+            "nome": "StartMenuExperienceHost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.13,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:35"
+        },
+        {
+            "pid": 2296,
+            "nome": "SearchHost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.11,
+            "status": "stopped",
+            "criado_em": "26/06/2026 13:42:35"
+        },
+        {
+            "pid": 9432,
+            "nome": "msedgewebview2.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 1.09,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:30"
+        },
+        {
+            "pid": 8816,
+            "nome": "M365Copilot.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.98,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:24"
+        },
+        {
+            "pid": 14252,
+            "nome": "powershell.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.93,
+            "status": "running",
+            "criado_em": "26/06/2026 15:54:20"
+        },
+        {
+            "pid": 10860,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.91,
+            "status": "running",
+            "criado_em": "26/06/2026 15:15:32"
+        },
+        {
+            "pid": 12220,
+            "nome": "powershell.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.9,
+            "status": "running",
+            "criado_em": "26/06/2026 15:24:58"
+        },
+        {
+            "pid": 5464,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.89,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:32"
+        },
+        {
+            "pid": 8144,
+            "nome": "audiodg.exe",
+            "usuario": null,
+            "cpu_percent": 3.3,
+            "memoria_percent": 0.89,
+            "status": "running",
+            "criado_em": "26/06/2026 13:49:19"
+        },
+        {
+            "pid": 12364,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.89,
+            "status": "running",
+            "criado_em": "26/06/2026 15:44:19"
+        },
+        {
+            "pid": 8920,
+            "nome": "OneDrive.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.84,
+            "status": "running",
+            "criado_em": "26/06/2026 13:44:33"
+        },
+        {
+            "pid": 12760,
+            "nome": "WindowsTerminal.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.82,
+            "status": "running",
+            "criado_em": "26/06/2026 15:34:22"
+        },
+        {
+            "pid": 2672,
+            "nome": "MemCompression",
+            "usuario": null,
+            "cpu_percent": 4.0,
+            "memoria_percent": 0.81,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:19"
+        },
+        {
+            "pid": 12632,
+            "nome": "git.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.6,
+            "memoria_percent": 0.78,
+            "status": "running",
+            "criado_em": "26/06/2026 15:25:26"
+        },
+        {
+            "pid": 3696,
+            "nome": "TextInputHost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.74,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:44"
+        },
+        {
+            "pid": 2952,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.73,
+            "status": "running",
+            "criado_em": "26/06/2026 15:20:59"
+        },
+        {
+            "pid": 9956,
+            "nome": "SearchIndexer.exe",
+            "usuario": null,
+            "cpu_percent": 3.0,
+            "memoria_percent": 0.7,
+            "status": "running",
+            "criado_em": "26/06/2026 12:04:56"
+        },
+        {
+            "pid": 8016,
+            "nome": "LockApp.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.68,
+            "status": "stopped",
+            "criado_em": "26/06/2026 13:42:52"
+        },
+        {
+            "pid": 152,
+            "nome": "Registry",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.67,
+            "status": "running",
+            "criado_em": "26/06/2026 11:57:18"
+        },
+        {
+            "pid": 3164,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.65,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:36"
+        },
+        {
+            "pid": 8388,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 2.4,
+            "memoria_percent": 0.65,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:28"
+        },
+        {
+            "pid": 8012,
+            "nome": "ShellExperienceHost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.58,
+            "status": "stopped",
+            "criado_em": "26/06/2026 13:48:12"
+        },
+        {
+            "pid": 7768,
+            "nome": "CodeSetup-stable-3.9.8.tmp",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 19.0,
+            "memoria_percent": 0.57,
+            "status": "running",
+            "criado_em": "26/06/2026 15:24:44"
+        },
+        {
+            "pid": 8988,
+            "nome": "Widgets.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.53,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:37"
+        },
+        {
+            "pid": 13264,
+            "nome": "cloudcode_cli.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.52,
+            "status": "running",
+            "criado_em": "26/06/2026 15:26:33"
+        },
+        {
+            "pid": 9308,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.51,
+            "status": "running",
+            "criado_em": "26/06/2026 15:50:00"
+        },
+        {
+            "pid": 10476,
+            "nome": "Cursor.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.48,
+            "status": "running",
+            "criado_em": "26/06/2026 15:20:55"
+        },
+        {
+            "pid": 3348,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.46,
+            "status": "running",
+            "criado_em": "26/06/2026 15:44:12"
+        },
+        {
+            "pid": 12300,
+            "nome": "SystemSettingsBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.45,
+            "status": "running",
+            "criado_em": "26/06/2026 15:51:33"
+        },
+        {
+            "pid": 1632,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.5,
+            "memoria_percent": 0.44,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 2068,
+            "nome": "gamingservices.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.44,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:53"
+        },
+        {
+            "pid": 9320,
+            "nome": "msedgewebview2.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.44,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:42"
+        },
+        {
+            "pid": 128,
+            "nome": "msedgewebview2.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.43,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:38"
+        },
+        {
+            "pid": 1548,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.43,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:19"
+        },
+        {
+            "pid": 7036,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.41,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:19"
+        },
+        {
+            "pid": 7476,
+            "nome": "sihost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.41,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:19"
+        },
+        {
+            "pid": 11808,
+            "nome": "ApplicationFrameHost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.41,
+            "status": "running",
+            "criado_em": "26/06/2026 15:41:16"
+        },
+        {
+            "pid": 9116,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.4,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:29"
+        },
+        {
+            "pid": 9520,
+            "nome": "RtkUWP.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.4,
+            "status": "stopped",
+            "criado_em": "26/06/2026 15:41:16"
+        },
+        {
+            "pid": 2476,
+            "nome": "RuntimeBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.39,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:57"
+        },
+        {
+            "pid": 1184,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.38,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:55"
+        },
+        {
+            "pid": 9212,
+            "nome": "RuntimeBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.38,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:39"
+        },
+        {
+            "pid": 12392,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.38,
+            "status": "running",
+            "criado_em": "26/06/2026 15:41:26"
+        },
+        {
+            "pid": 5868,
+            "nome": "msedgewebview2.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.37,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:38"
+        },
+        {
+            "pid": 8900,
+            "nome": "RuntimeBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.37,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:40"
+        },
+        {
+            "pid": 8364,
+            "nome": "RuntimeBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.34,
+            "status": "running",
+            "criado_em": "26/06/2026 13:48:12"
+        },
+        {
+            "pid": 6848,
+            "nome": "FileCoAuth.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.33,
+            "status": "running",
+            "criado_em": "26/06/2026 13:49:04"
+        },
+        {
+            "pid": 9744,
+            "nome": "ctfmon.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.33,
+            "status": "running",
+            "criado_em": "26/06/2026 13:43:09"
+        },
+        {
+            "pid": 1708,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.32,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 4272,
+            "nome": "AnyDesk.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.32,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 9204,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 1.6,
+            "memoria_percent": 0.32,
+            "status": "running",
+            "criado_em": "26/06/2026 15:05:42"
+        },
+        {
+            "pid": 940,
+            "nome": "lsass.exe",
+            "usuario": null,
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.29,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:52"
+        },
+        {
+            "pid": 13476,
+            "nome": "python.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 7.7,
+            "memoria_percent": 0.29,
+            "status": "running",
+            "criado_em": "26/06/2026 15:54:26"
+        },
+        {
+            "pid": 14176,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.29,
+            "status": "running",
+            "criado_em": "26/06/2026 15:52:26"
+        },
+        {
+            "pid": 5984,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.27,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:51"
+        },
+        {
+            "pid": 4528,
+            "nome": "wslservice.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.26,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:49"
+        },
+        {
+            "pid": 6804,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.26,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:41"
+        },
+        {
+            "pid": 7320,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.26,
+            "status": "running",
+            "criado_em": "26/06/2026 12:03:38"
+        },
+        {
+            "pid": 6684,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.25,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:29"
+        },
+        {
+            "pid": 9476,
+            "nome": "utility.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.24,
+            "status": "running",
+            "criado_em": "26/06/2026 13:44:46"
+        },
+        {
+            "pid": 4380,
+            "nome": "MpDefenderCoreService.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.23,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:48"
+        },
+        {
+            "pid": 9872,
+            "nome": "AnyDesk.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.23,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:51"
+        },
+        {
+            "pid": 10316,
+            "nome": "taskhostw.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.23,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:20"
+        },
+        {
+            "pid": 2248,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.22,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:14"
+        },
+        {
+            "pid": 3324,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.22,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:38"
+        },
+        {
+            "pid": 3568,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.22,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:40"
+        },
+        {
+            "pid": 4124,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.22,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 6156,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.22,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:21"
+        },
+        {
+            "pid": 6652,
+            "nome": "WidgetService.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.22,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:48"
+        },
+        {
+            "pid": 4132,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.21,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 6604,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.21,
+            "status": "running",
+            "criado_em": "26/06/2026 13:49:49"
+        },
+        {
+            "pid": 10588,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.21,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:42"
+        },
+        {
+            "pid": 10680,
+            "nome": "SecurityHealthService.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.21,
+            "status": "running",
+            "criado_em": "26/06/2026 12:07:09"
+        },
+        {
+            "pid": 956,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.2,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:12"
+        },
+        {
+            "pid": 1736,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.2,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 2320,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.2,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:16"
+        },
+        {
+            "pid": 3712,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.2,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:43"
+        },
+        {
+            "pid": 4208,
+            "nome": "msedgewebview2.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.2,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:39"
+        },
+        {
+            "pid": 8184,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 25.0,
+            "memoria_percent": 0.2,
+            "status": "running",
+            "criado_em": "26/06/2026 12:02:21"
+        },
+        {
+            "pid": 1380,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.3,
+            "memoria_percent": 0.19,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:00"
+        },
+        {
+            "pid": 2236,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.19,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:14"
+        },
+        {
+            "pid": 6116,
+            "nome": "GameInputSvc.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.19,
+            "status": "running",
+            "criado_em": "26/06/2026 13:33:09"
+        },
+        {
+            "pid": 9120,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.19,
+            "status": "running",
+            "criado_em": "26/06/2026 12:06:27"
+        },
+        {
+            "pid": 796,
+            "nome": "services.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.18,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:52"
+        },
+        {
+            "pid": 2504,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.18,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:16"
+        },
+        {
+            "pid": 3676,
+            "nome": "spoolsv.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.18,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:42"
+        },
+        {
+            "pid": 10436,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.18,
+            "status": "running",
+            "criado_em": "26/06/2026 13:43:01"
+        },
+        {
+            "pid": 1224,
+            "nome": "WUDFHost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.17,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:56"
+        },
+        {
+            "pid": 7204,
+            "nome": "RtkAudUService64.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.17,
+            "status": "running",
+            "criado_em": "26/06/2026 13:44:33"
+        },
+        {
+            "pid": 7448,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.17,
+            "status": "running",
+            "criado_em": "26/06/2026 15:51:47"
+        },
+        {
+            "pid": 8220,
+            "nome": "dllhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.17,
+            "status": "running",
+            "criado_em": "26/06/2026 13:43:04"
+        },
+        {
+            "pid": 1588,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.16,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:08"
+        },
+        {
+            "pid": 2824,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.16,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:51"
+        },
+        {
+            "pid": 7784,
+            "nome": "NisSrv.exe",
+            "usuario": null,
+            "cpu_percent": 0.5,
+            "memoria_percent": 0.16,
+            "status": "running",
+            "criado_em": "26/06/2026 12:02:14"
+        },
+        {
+            "pid": 10188,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.16,
+            "status": "running",
+            "criado_em": "26/06/2026 12:04:49"
+        },
+        {
+            "pid": 10256,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.16,
+            "status": "running",
+            "criado_em": "26/06/2026 13:44:19"
+        },
+        {
+            "pid": 14324,
+            "nome": "WmiPrvSE.exe",
+            "usuario": null,
+            "cpu_percent": 0.3,
+            "memoria_percent": 0.16,
+            "status": "running",
+            "criado_em": "26/06/2026 15:53:27"
+        },
+        {
+            "pid": 1596,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.15,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:08"
+        },
+        {
+            "pid": 5448,
+            "nome": "OpenConsole.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.15,
+            "status": "running",
+            "criado_em": "26/06/2026 15:34:09"
+        },
+        {
+            "pid": 6052,
+            "nome": "cowork-svc.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.15,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:53"
+        },
+        {
+            "pid": 6196,
+            "nome": "AggregatorHost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.15,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:22"
+        },
+        {
+            "pid": 10376,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.15,
+            "status": "running",
+            "criado_em": "26/06/2026 12:06:02"
+        },
+        {
+            "pid": 1464,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.14,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:02"
+        },
+        {
+            "pid": 3592,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.14,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:41"
+        },
+        {
+            "pid": 6172,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.14,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:51"
+        },
+        {
+            "pid": 9424,
+            "nome": "winlogon.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.14,
+            "status": "running",
+            "criado_em": "26/06/2026 13:32:41"
+        },
+        {
+            "pid": 9720,
+            "nome": "GameInputRedistService.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.14,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:10"
+        },
+        {
+            "pid": 1504,
+            "nome": "RuntimeBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:28"
+        },
+        {
+            "pid": 2212,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:13"
+        },
+        {
+            "pid": 2964,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:27"
+        },
+        {
+            "pid": 3244,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:38"
+        },
+        {
+            "pid": 4116,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 4356,
+            "nome": "GameInputRedistService.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 8024,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 12:02:19"
+        },
+        {
+            "pid": 12508,
+            "nome": "conhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 15:25:26"
+        },
+        {
+            "pid": 13208,
+            "nome": "conhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.13,
+            "status": "running",
+            "criado_em": "26/06/2026 15:26:33"
+        },
+        {
+            "pid": 1428,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:12"
+        },
+        {
+            "pid": 1768,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:09"
+        },
+        {
+            "pid": 3808,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:44"
+        },
+        {
+            "pid": 4100,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 5924,
+            "nome": "SecurityHealthSystray.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 13:44:11"
+        },
+        {
+            "pid": 8096,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 15:51:50"
+        },
+        {
+            "pid": 9748,
+            "nome": "msedgewebview2.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 13:45:31"
+        },
+        {
+            "pid": 10952,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.12,
+            "status": "running",
+            "criado_em": "26/06/2026 12:06:22"
+        },
+        {
+            "pid": 1336,
+            "nome": "dllhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 13:43:39"
+        },
+        {
+            "pid": 1716,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:09"
+        },
+        {
+            "pid": 1872,
+            "nome": "brave.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 14:42:24"
+        },
+        {
+            "pid": 2628,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:18"
+        },
+        {
+            "pid": 2760,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:20"
+        },
+        {
+            "pid": 4732,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:51"
+        },
+        {
+            "pid": 6112,
+            "nome": "gamingservicesnet.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:53"
+        },
+        {
+            "pid": 7512,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 12:02:08"
+        },
+        {
+            "pid": 9972,
+            "nome": "svchost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:19"
+        },
+        {
+            "pid": 10220,
+            "nome": "CodeSetup-stable-3.9.8.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 15:24:13"
+        },
+        {
+            "pid": 12380,
+            "nome": "conhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 15:34:06"
+        },
+        {
+            "pid": 12744,
+            "nome": "RuntimeBroker.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.11,
+            "status": "running",
+            "criado_em": "26/06/2026 15:41:19"
+        },
+        {
+            "pid": 4,
+            "nome": "System",
+            "usuario": "NT AUTHORITY\\SYSTEM",
+            "cpu_percent": 16.6,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "N/A"
+        },
+        {
+            "pid": 1564,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:07"
+        },
+        {
+            "pid": 1808,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:10"
+        },
+        {
+            "pid": 2444,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:29"
+        },
+        {
+            "pid": 2636,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:18"
+        },
+        {
+            "pid": 3000,
+            "nome": "WUDFHost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:28"
+        },
+        {
+            "pid": 3816,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 3884,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:44"
+        },
+        {
+            "pid": 4648,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:50"
+        },
+        {
+            "pid": 5728,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 15:51:40"
+        },
+        {
+            "pid": 7136,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:49"
+        },
+        {
+            "pid": 10460,
+            "nome": "conhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 15:54:22"
+        },
+        {
+            "pid": 11804,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.1,
+            "status": "running",
+            "criado_em": "26/06/2026 15:44:40"
+        },
+        {
+            "pid": 528,
+            "nome": "wininit.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:51"
+        },
+        {
+            "pid": 1604,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 2052,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:12"
+        },
+        {
+            "pid": 2376,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:16"
+        },
+        {
+            "pid": 2772,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:20"
+        },
+        {
+            "pid": 3260,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:38"
+        },
+        {
+            "pid": 3424,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:39"
+        },
+        {
+            "pid": 3992,
+            "nome": "dasHost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:46"
+        },
+        {
+            "pid": 7504,
+            "nome": "SearchProtocolHost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 12:43:14"
+        },
+        {
+            "pid": 10440,
+            "nome": "conhost.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 15:24:56"
+        },
+        {
+            "pid": 10548,
+            "nome": "csrss.exe",
+            "usuario": null,
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 13:32:40"
+        },
+        {
+            "pid": 12024,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 15:23:04"
+        },
+        {
+            "pid": 12244,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 15:44:06"
+        },
+        {
+            "pid": 13156,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.09,
+            "status": "running",
+            "criado_em": "26/06/2026 15:51:52"
+        },
+        {
+            "pid": 896,
+            "nome": "csrss.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:49"
+        },
+        {
+            "pid": 1664,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 2100,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:57"
+        },
+        {
+            "pid": 3192,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:36"
+        },
+        {
+            "pid": 3252,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:38"
+        },
+        {
+            "pid": 3768,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:43"
+        },
+        {
+            "pid": 5264,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 12:05:03"
+        },
+        {
+            "pid": 12472,
+            "nome": "git.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.08,
+            "status": "running",
+            "criado_em": "26/06/2026 15:25:26"
+        },
+        {
+            "pid": 1192,
+            "nome": "conhost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:02"
+        },
+        {
+            "pid": 1748,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:09"
+        },
+        {
+            "pid": 1792,
+            "nome": "wlanext.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 12:00:02"
+        },
+        {
+            "pid": 2348,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.2,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:16"
+        },
+        {
+            "pid": 2792,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:21"
+        },
+        {
+            "pid": 3920,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:47"
+        },
+        {
+            "pid": 8576,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 13:42:00"
+        },
+        {
+            "pid": 10852,
+            "nome": "GameInputSvc.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 12:05:48"
+        },
+        {
+            "pid": 11684,
+            "nome": "wermgr.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.07,
+            "status": "running",
+            "criado_em": "26/06/2026 15:46:28"
+        },
+        {
+            "pid": 5796,
+            "nome": "cmd.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.06,
+            "status": "running",
+            "criado_em": "26/06/2026 15:34:06"
+        },
+        {
+            "pid": 7468,
+            "nome": "fontdrvhost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.06,
+            "status": "running",
+            "criado_em": "26/06/2026 13:32:41"
+        },
+        {
+            "pid": 4032,
+            "nome": "dasHost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.05,
+            "status": "running",
+            "criado_em": "26/06/2026 11:59:46"
+        },
+        {
+            "pid": 6608,
+            "nome": "svchost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.05,
+            "status": "running",
+            "criado_em": "26/06/2026 12:01:36"
+        },
+        {
+            "pid": 9136,
+            "nome": "LocationNotificationWindows.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.05,
+            "status": "running",
+            "criado_em": "26/06/2026 13:43:14"
+        },
+        {
+            "pid": 1292,
+            "nome": "fontdrvhost.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.04,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:56"
+        },
+        {
+            "pid": 2724,
+            "nome": "HostAppServiceUpdater.exe",
+            "usuario": "LAPTOP-GL4996I4\\cezar",
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.04,
+            "status": "running",
+            "criado_em": "26/06/2026 13:44:21"
+        },
+        {
+            "pid": 616,
+            "nome": "smss.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.01,
+            "status": "running",
+            "criado_em": "26/06/2026 11:58:05"
+        },
+        {
+            "pid": 0,
+            "nome": "System Idle Process",
+            "usuario": "NT AUTHORITY\\SYSTEM",
+            "cpu_percent": 511.0,
+            "memoria_percent": 0.0,
+            "status": "running",
+            "criado_em": "N/A"
+        },
+        {
+            "pid": 2496,
+            "nome": "BraveCrashHandler64.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.0,
+            "status": "running",
+            "criado_em": "26/06/2026 12:05:01"
+        },
+        {
+            "pid": 8612,
+            "nome": "BraveCrashHandler.exe",
+            "usuario": null,
+            "cpu_percent": 0.0,
+            "memoria_percent": 0.0,
+            "status": "running",
+            "criado_em": "26/06/2026 12:04:54"
+        }
+    ],
+    "resumo_processos": {
+        "total_processos": 220,
+        "cpu_global": 13.7,
+        "memoria_global": 87.9
+    }
+}

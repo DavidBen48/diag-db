@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Network</h2>
+
+<div class="card">
+    <h3>Interfaces</h3>
+    {% include "partials/detail_block.html" with data=interfaces %}
+</div>
+
+<div class="card">
+    <h3>Endereços IP</h3>
+    {% include "partials/detail_block.html" with data=ips %}
+</div>
+
+<div class="card">
+    <h3>Gateway</h3>
+    {% include "partials/detail_block.html" with data=gateway %}
+</div>
+
+<div class="card">
+    <h3>DNS</h3>
+    {% include "partials/detail_block.html" with data=dns %}
+</div>
+
+<div class="card">
+    <h3>Portas</h3>
+    {% include "partials/detail_block.html" with data=portas %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Processos</h2>
+
+<div class="card">
+
+<h3>Resumo</h3>
+
+<table>
+
+<tr>
+<td>Total</td>
+<td>{{ resumo.total_processos }}</td>
+</tr>
+
+<tr>
+<td>CPU</td>
+<td>{{ resumo.cpu_global }}%</td>
+</tr>
+
+<tr>
+<td>Memória</td>
+<td>{{ resumo.memoria_global }}%</td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h3>Processos Ativos</h3>
+
+<input
+    type="text"
+    id="procSearch"
+    placeholder="Pesquisar processo..."
+    class="search-box">
+
+<p id="procResult" class="search-result">Digite para filtrar os processos.</p>
+
+<table id="processTable">
+
+<thead>
+
+<tr>
+
+<th>PID</th>
+<th>Nome</th>
+<th>CPU</th>
+<th>RAM</th>
+<th>Status</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+{% for processo in processos %}
+
+<tr>
+
+<td>{{ processo.pid }}</td>
+<td>{{ processo.nome }}</td>
+<td>{{ processo.cpu_percent }}</td>
+<td>{{ processo.memoria_percent }}</td>
+<td>{{ processo.status }}</td>
+
+</tr>
+
+{% endfor %}
+
+</tbody>
+
+</table>
+
+</div>
+
+{% endblock %}

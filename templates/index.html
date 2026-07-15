@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Dashboard</h2>
+
+<div class="stats-grid">
+
+    <div class="stat-box">
+        <span>Equipamento</span>
+        {% include "partials/detail_block.html" with data=equipamento layout="stacked" %}
+    </div>
+
+    <div class="stat-box">
+        <span>Sistema</span>
+        {% include "partials/detail_block.html" with data=sistema layout="stacked" %}
+    </div>
+
+    <div class="stat-box">
+        <span>CPU</span>
+        {% include "partials/detail_block.html" with data=cpu layout="stacked" %}
+    </div>
+
+    <div class="stat-box">
+        <span>Memória</span>
+        {% include "partials/detail_block.html" with data=memoria layout="stacked" %}
+    </div>
+
+</div>
+
+{% endblock %}

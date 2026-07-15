@@ -1,0 +1,183 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block content %}
+
+<h2>Relatórios</h2>
+
+<div class="card">
+
+    <h3>Gerar Novo Relatório</h3>
+
+    <div style="display: flex; gap: 10px; margin: 20px 0;">
+
+        <button 
+            onclick="gerarRelatorio('txt')"
+            style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">
+            📄 Exportar TXT
+        </button>
+
+        <button 
+            onclick="gerarRelatorio('json')"
+            style="padding: 10px 20px; background-color: #2196F3; color: white; border: none; border-radius: 4px; cursor: pointer;">
+            📋 Exportar JSON
+        </button>
+
+    </div>
+
+    <form id="relatorioForm" style="display: none;" method="post">
+        {% csrf_token %}
+        <input type="hidden" name="formato" id="formatoInput" value="" />
+    </form>
+
+    <div id="status" style="margin: 10px 0; padding: 10px; display: none; border-radius: 4px;">
+    </div>
+
+</div>
+
+<div class="card">
+
+    <h3>Relatórios Disponíveis</h3>
+
+    {% if relatorios %}
+
+        <table style="width: 100%; border-collapse: collapse;">
+
+            <thead>
+                <tr style="background-color: #f2f2f2;">
+                    <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Nome</th>
+                    <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Tamanho</th>
+                    <th style="padding: 8px; text-align: left; border-bottom: 1px solid #ddd;">Data</th>
+                    <th style="padding: 8px; text-align: center; border-bottom: 1px solid #ddd;">Ações</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for relatorio in relatorios %}
+                    <tr style="border-bottom: 1px solid #ddd;">
+                        <td style="padding: 8px;">{{ relatorio.nome }}</td>
+                        <td style="padding: 8px;">{{ relatorio.tamanho|filesizeformat }}</td>
+                        <td style="padding: 8px;">
+                            {{ relatorio.data|date:"d/m/Y H:i" }}
+                        </td>
+                        <td style="padding: 8px; text-align: center;">
+                            <a 
+                                href="{% url 'download_relatorio' relatorio.nome %}"
+                                style="background-color: #2196F3; color: white; padding: 5px 10px; text-decoration: none; border-radius: 3px; display: inline-block;">
+                                ⬇️ Download
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+
+        </table>
+
+    {% else %}
+
+        <p style="color: #666;">Nenhum relatório disponível. Gere um novo relatório para começar.</p>
+
+    {% endif %}
+
+</div>
+
+<script>
+
+function gerarRelatorio(formato) {
+
+    const statusDiv = document.getElementById('status');
+    statusDiv.style.display = 'block';
+    statusDiv.textContent = 'Gerando relatório...';
+    statusDiv.style.backgroundColor = '#e3f2fd';
+    statusDiv.style.color = '#1976d2';
+
+    const csrfToken = document.querySelector('input[name=csrfmiddlewaretoken]')?.value || getCookie('csrftoken');
+    document.getElementById('formatoInput').value = formato;
+
+    fetch("{% url 'relatorios' %}", {
+
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'X-CSRFToken': csrfToken,
+            'X-Requested-With': 'XMLHttpRequest'
+        },
+        body: `formato=${encodeURIComponent(formato)}`
+
+    })
+
+    .then(async response => {
+        const text = await response.text();
+        if (!response.ok) {
+            throw new Error(text || `HTTP ${response.status}`);
+        }
+        try {
+            return JSON.parse(text);
+        } catch (parseError) {
+            throw new Error(`Resposta inválida do servidor: ${text}`);
+        }
+    })
+
+    .then(data => {
+
+        if (data.sucesso) {
+
+            statusDiv.textContent = `✅ Relatório gerado com sucesso: ${data.nome}`;
+            statusDiv.style.backgroundColor = '#c8e6c9';
+            statusDiv.style.color = '#2e7d32';
+
+            setTimeout(() => {
+                location.reload();
+            }, 2000);
+
+        } else {
+
+            statusDiv.textContent = `❌ Erro ao gerar relatório: ${data.erro}`;
+            statusDiv.style.backgroundColor = '#ffcdd2';
+            statusDiv.style.color = '#c62828';
+
+        }
+
+    })
+
+    .catch(erro => {
+
+        statusDiv.textContent = `❌ Erro: ${erro}`;
+        statusDiv.style.backgroundColor = '#ffcdd2';
+        statusDiv.style.color = '#c62828';
+
+    });
+
+}
+
+function getCookie(name) {
+
+    let cookieValue = null;
+
+    if (document.cookie && document.cookie !== '') {
+
+        const cookies = document.cookie.split(';');
+
+        for (let i = 0; i < cookies.length; i++) {
+
+            const cookie = cookies[i].trim();
+
+            if (cookie.substring(0, name.length + 1) === (name + '=')) {
+
+                cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                break;
+
+            }
+
+        }
+
+    }
+
+    return cookieValue;
+
+}
+
+</script>
+
+{% endblock %}
